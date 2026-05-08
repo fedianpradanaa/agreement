@@ -50,9 +50,9 @@
 <!-- MODAL PERSETUJUAN -->
 
 <div id="agreementModal"
-     class="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
+     class="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-start lg:items-center justify-center p-3 lg:p-6 overflow-y-auto">
 
-    <div class="bg-white w-full max-w-5xl rounded-[30px] shadow-2xl overflow-hidden animate-fadeIn">
+    <div class="bg-white w-full max-w-5xl rounded-[24px] lg:rounded-[30px] shadow-2xl overflow-hidden animate-fadeIn my-4">
 
         <!-- HEADER -->
 
@@ -81,7 +81,7 @@
 
         <!-- CONTENT -->
 
-        <div class="p-8 max-h-[70vh] overflow-y-auto">
+        <div class="p-5 lg:p-8 max-h-[60vh] lg:max-h-[70vh] overflow-y-auto">
 
             <div class="space-y-6 text-gray-700 leading-relaxed text-[15px]">
 
@@ -325,11 +325,13 @@
 
         <!-- FOOTER -->
 
-        <div class="px-8 py-6 border-t bg-gray-50 flex flex-col md:flex-row gap-4 justify-end">
+        <!-- FOOTER -->
+
+        <div class="px-5 lg:px-8 py-5 border-t bg-gray-50 sticky bottom-0 flex flex-col md:flex-row gap-4 justify-end">
 
             <button type="button"
                     onclick="window.location.href='https://elementamedia.id'"
-                    class="px-6 py-3 rounded-2xl border border-gray-300 text-gray-600 hover:bg-gray-100 transition">
+                    class="w-full md:w-auto px-6 py-4 rounded-2xl border border-gray-300 text-gray-600 hover:bg-gray-100 transition">
 
                 Tidak Setuju
 
@@ -338,7 +340,7 @@
             <button type="button"
                     id="agreeButton"
                     disabled
-                    class="px-8 py-3 rounded-2xl bg-gradient-to-r from-[#0176A4] to-[#1B75A1] text-white font-semibold shadow-lg opacity-50 cursor-not-allowed transition">
+                    class="w-full md:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-[#0176A4] to-[#1B75A1] text-white font-semibold shadow-lg opacity-50 cursor-not-allowed transition">
 
                 Setuju & Lanjutkan
 
