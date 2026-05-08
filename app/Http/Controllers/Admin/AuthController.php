@@ -19,31 +19,39 @@ class AuthController extends Controller
 
     public function authenticate(Request $request)
     {
+        $request->validate([
+
+            'email' => 'required|email',
+
+            'password' => 'required',
+
+        ]);
+
         $admin = Admin::where(
             'email',
             $request->email
         )->first();
 
-        if (!$admin) {
+        if (
+            !$admin ||
+            !Hash::check(
+                $request->password,
+                $admin->password
+            )
+        ) {
 
             return back()->withErrors([
-                'email' => 'Email tidak ditemukan'
-            ]);
 
-        }
+                'login' =>
+                    'Email atau password salah.'
 
-        if (!Hash::check(
-            $request->password,
-            $admin->password
-        )) {
-
-            return back()->withErrors([
-                'password' => 'Password salah'
-            ]);
+            ])->withInput();
 
         }
 
         session([
+
+            'admin_logged_in' => true,
 
             'admin_id' => $admin->id,
 

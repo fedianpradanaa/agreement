@@ -45,15 +45,11 @@
 
         <div class="p-10">
 
-            @if ($errors->any())
+            @if($errors->has('login'))
 
-                <div class="mb-6 bg-red-50 border border-red-200 text-red-600 rounded-2xl p-4 text-sm">
+                <div class="mb-6 bg-red-50 border border-red-200 text-red-700 px-5 py-4 rounded-2xl">
 
-                    @foreach ($errors->all() as $error)
-
-                        <div>{{ $error }}</div>
-
-                    @endforeach
+                    {{ $errors->first('login') }}
 
                 </div>
 
