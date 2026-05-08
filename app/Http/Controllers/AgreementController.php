@@ -27,40 +27,44 @@ class AgreementController extends Controller
 
     public function generate(Request $request)
     {
-        /*
+       /*
         |--------------------------------------------------------------------------
         | RECAPTCHA VALIDATION
         |--------------------------------------------------------------------------
         */
 
-        $response = Http::asForm()->post(
+        if (!app()->environment('local')) {
 
-            'https://www.google.com/recaptcha/api/siteverify',
+            $response = Http::asForm()->post(
 
-            [
+                'https://www.google.com/recaptcha/api/siteverify',
 
-                'secret' => env('RECAPTCHA_SECRET_KEY'),
+                [
 
-                'response' => $request->input(
-                    'g-recaptcha-response'
-                ),
+                    'secret' => env('RECAPTCHA_SECRET_KEY'),
 
-                'remoteip' => request()->ip(),
+                    'response' => $request->input(
+                        'g-recaptcha-response'
+                    ),
 
-            ]
+                    'remoteip' => request()->ip(),
 
-        );
+                ]
 
-        $captcha = $response->json();
+            );
 
-        if (!$captcha['success']) {
+            $captcha = $response->json();
 
-            return back()->withErrors([
+            if (!$captcha['success']) {
 
-                'captcha' =>
-                    'Verifikasi reCAPTCHA gagal.'
+                return back()->withErrors([
 
-            ])->withInput();
+                    'captcha' =>
+                        'Verifikasi reCAPTCHA gagal.'
+
+                ])->withInput();
+            }
+
         }
 
         /*

@@ -32,16 +32,229 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
 
+    @if(!app()->environment('local'))
+
     <script
-       src="https://www.google.com/recaptcha/api.js"
-       async
-       defer>
-       </script>
+    src="https://www.google.com/recaptcha/api.js"
+    async
+    defer>
+    </script>
+
+    @endif
 
 </head>
 
 <body class="bg-[#F4F7FA] text-gray-800 overflow-x-hidden"
       style="font-family: 'Inter', sans-serif;">
+
+<!-- MODAL PERSETUJUAN -->
+
+<div id="agreementModal"
+     class="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
+
+    <div class="bg-white w-full max-w-5xl rounded-[30px] shadow-2xl overflow-hidden animate-fadeIn">
+
+        <!-- HEADER -->
+
+        <div class="bg-gradient-to-r from-[#0176A4] to-[#1B75A1] px-8 py-6 text-white">
+
+            <div class="flex items-center gap-4">
+
+                <img src="{{ asset('images/logo-elementa.png') }}"
+                     class="w-14 h-14 object-contain bg-white rounded-2xl p-2 shadow-lg">
+
+                <div>
+
+                    <h2 class="text-2xl font-bold">
+                        Persetujuan Kerja Sama Penerbitan Buku
+                    </h2>
+
+                    <p class="text-white/80 text-sm mt-1">
+                        PT Elementa Media Literasi
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- CONTENT -->
+
+        <div class="p-8 max-h-[70vh] overflow-y-auto">
+
+            <div class="space-y-6 text-gray-700 leading-relaxed text-[15px]">
+
+                <p>
+                    Dengan mengklik tombol
+                    <strong>“Setuju & Lanjutkan”</strong>,
+                    Penulis menyatakan telah membaca,
+                    memahami, dan menyetujui seluruh
+                    ketentuan kerja sama penerbitan buku
+                    dengan PT Elementa Media Literasi.
+                </p>
+
+                <!-- PASAL -->
+
+                <div class="space-y-5">
+
+                    <div>
+                        <h3 class="font-bold text-[#0176A4]">
+                            PASAL 1 — Objek Kerja Sama
+                        </h3>
+
+                        <p class="mt-1">
+                            Penulis menyerahkan naskah kepada
+                            PT Elementa Media Literasi untuk
+                            diproses dan diterbitkan menjadi buku,
+                            baik cetak maupun digital/ebook.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-bold text-[#0176A4]">
+                            PASAL 2 — Ruang Lingkup Penerbitan
+                        </h3>
+
+                        <p class="mt-1">
+                            Penerbit membantu proses penerbitan,
+                            ISBN/barcode, editing, layout,
+                            desain cover, cetak/digital,
+                            hingga distribusi dan penjualan buku.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-bold text-[#0176A4]">
+                            PASAL 3 — Hak Cipta & Hak Terbit
+                        </h3>
+
+                        <p class="mt-1">
+                            Hak cipta tetap milik Penulis,
+                            namun Penulis memberikan hak kepada
+                            Penerbit untuk menerbitkan,
+                            memasarkan, dan menjual buku
+                            selama masa kerja sama berlaku.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-bold text-[#0176A4]">
+                            PASAL 4 — Larangan Penerbitan Ganda
+                        </h3>
+
+                        <p class="mt-1">
+                            Penulis tidak diperkenankan
+                            menerbitkan naskah yang sama
+                            ke penerbit lain tanpa persetujuan tertulis.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-bold text-[#0176A4]">
+                            PASAL 5 — File PDF & Master
+                        </h3>
+
+                        <p class="mt-1">
+                            File final produksi dan master layout
+                            tidak diberikan kepada Penulis
+                            demi menjaga keamanan hak cipta
+                            dan hak terbit bersama.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-bold text-[#0176A4]">
+                            PASAL 6 — Margin & Bonus Penjualan
+                        </h3>
+
+                        <p class="mt-1">
+                            Penulis berhak memperoleh margin
+                            penjualan buku, ebook,
+                            serta bonus penjualan tahunan
+                            sesuai ketentuan kerja sama.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-bold text-[#0176A4]">
+                            PASAL 7 — Masa Berlaku
+                        </h3>
+
+                        <p class="mt-1">
+                            Kerja sama berlaku selama 5 tahun
+                            dan dapat diperpanjang otomatis
+                            apabila tidak ada penghentian tertulis.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-bold text-[#0176A4]">
+                            PASAL 8 — Persetujuan Digital
+                        </h3>
+
+                        <p class="mt-1">
+                            Persetujuan ini sah secara digital
+                            setelah Penulis menekan tombol
+                            “Setuju & Lanjutkan”.
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- CHECKBOX -->
+
+                <div class="mt-8 bg-[#F4F7FA] border border-gray-200 rounded-2xl p-5">
+
+                    <label class="flex items-start gap-4 cursor-pointer">
+
+                        <input type="checkbox"
+                               id="agreeCheckbox"
+                               class="mt-1 w-5 h-5 rounded border-gray-300 text-[#0176A4] focus:ring-[#0176A4]">
+
+                        <span class="text-sm leading-relaxed">
+
+                            Saya menyatakan telah membaca,
+                            memahami, dan menyetujui seluruh
+                            ketentuan kerja sama penerbitan buku
+                            dengan PT Elementa Media Literasi.
+
+                        </span>
+
+                    </label>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- FOOTER -->
+
+        <div class="px-8 py-6 border-t bg-gray-50 flex flex-col md:flex-row gap-4 justify-end">
+
+            <button type="button"
+                    onclick="window.location.href='https://elementamedia.id'"
+                    class="px-6 py-3 rounded-2xl border border-gray-300 text-gray-600 hover:bg-gray-100 transition">
+
+                Tidak Setuju
+
+            </button>
+
+            <button type="button"
+                    id="agreeButton"
+                    disabled
+                    class="px-8 py-3 rounded-2xl bg-gradient-to-r from-[#0176A4] to-[#1B75A1] text-white font-semibold shadow-lg opacity-50 cursor-not-allowed transition">
+
+                Setuju & Lanjutkan
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
 
 <div class="min-h-screen flex items-center justify-center p-5 lg:p-10">
 
@@ -397,15 +610,19 @@
 
                 </div>
 
-              <!-- RECAPTCHA -->
+                    @if(!app()->environment('local'))
 
-                     <div class="mt-8 flex justify-center">
+                    <!-- RECAPTCHA -->
 
-                         <div class="g-recaptcha"
-                              data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}">
-                         </div>
+                    <div class="mt-8 flex justify-center">
 
-                     </div>
+                        <div class="g-recaptcha"
+                            data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}">
+                        </div>
+
+                    </div>
+
+                    @endif
 
                      <!-- CAPTCHA ERROR -->
 
@@ -488,6 +705,49 @@
         buttonText.innerText = 'Sedang Membuat Dokumen...';
 
         loadingIcon.classList.remove('hidden');
+
+    });
+
+</script>
+
+<script>
+
+    const agreementModal =
+        document.getElementById('agreementModal');
+
+    const agreeCheckbox =
+        document.getElementById('agreeCheckbox');
+
+    const agreeButton =
+        document.getElementById('agreeButton');
+
+    agreeCheckbox.addEventListener('change', function () {
+
+        if (this.checked) {
+
+            agreeButton.disabled = false;
+
+            agreeButton.classList.remove(
+                'opacity-50',
+                'cursor-not-allowed'
+            );
+
+        } else {
+
+            agreeButton.disabled = true;
+
+            agreeButton.classList.add(
+                'opacity-50',
+                'cursor-not-allowed'
+            );
+
+        }
+
+    });
+
+    agreeButton.addEventListener('click', function () {
+
+        agreementModal.classList.add('hidden');
 
     });
 
