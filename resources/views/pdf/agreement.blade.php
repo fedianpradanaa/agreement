@@ -17,26 +17,6 @@
 
         }
 
-        header {
-
-            position: fixed;
-
-            top: -90px;
-
-            left: 0;
-
-            right: 0;
-
-            text-align: center;
-
-            font-size: 12px;
-
-            border-bottom: 1px solid #999;
-
-            padding-bottom: 15px;
-
-        }
-
         footer {
 
             position: fixed;
@@ -144,10 +124,6 @@
 </head>
 
 <body>
-
-    <header>
-        PT. ELEMENTA MEDIA LITERASI
-    </header>
 
     <footer>
         Perjanjian Kerja Sama Penerbitan Buku
