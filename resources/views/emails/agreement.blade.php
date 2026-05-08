@@ -43,7 +43,7 @@
 
         <h1 style="
             margin:0;
-            font-size:32px;
+            font-size:28px;
             font-weight:800;
             letter-spacing:.3px;
         ">
