@@ -87,11 +87,7 @@
 
                 <p>
                     Dengan mengklik tombol
-                    <strong>“Setuju & Lanjutkan”</strong>,
-                    Penulis menyatakan telah membaca,
-                    memahami, dan menyetujui seluruh
-                    ketentuan kerja sama penerbitan buku
-                    dengan PT Elementa Media Literasi.
+                    <strong>“Setuju & Lanjutkan”</strong>, Penulis menyatakan telah membaca, memahami, dan menyetujui ketentuan kerja sama penerbitan buku dengan PT. Elementa Media Literasi sebagai berikut:
                 </p>
 
                 <!-- PASAL -->
@@ -104,10 +100,7 @@
                         </h3>
 
                         <p class="mt-1">
-                            Penulis menyerahkan naskah kepada
-                            PT Elementa Media Literasi untuk
-                            diproses dan diterbitkan menjadi buku,
-                            baik cetak maupun digital/ebook.
+                            Penulis menyerahkan naskah kepada PT. Elementa Media Literasi untuk diproses dan diterbitkan menjadi buku, baik dalam bentuk cetak maupun digital/ebook sesuai kebutuhan penerbitan.
                         </p>
                     </div>
 
@@ -117,10 +110,7 @@
                         </h3>
 
                         <p class="mt-1">
-                            Penerbit membantu proses penerbitan,
-                            ISBN/barcode, editing, layout,
-                            desain cover, cetak/digital,
-                            hingga distribusi dan penjualan buku.
+                            Penerbit dapat membantu proses penerbitan yang meliputi pengurusan administrasi penerbitan, ISBN/barcode apabila memenuhi ketentuan, editing, layout, desain cover, penerbitan cetak dan/atau digital, sertifikat/surat keterangan terbit, serta penyediaan kanal penjualan buku.
                         </p>
                     </div>
 
@@ -130,11 +120,7 @@
                         </h3>
 
                         <p class="mt-1">
-                            Hak cipta tetap milik Penulis,
-                            namun Penulis memberikan hak kepada
-                            Penerbit untuk menerbitkan,
-                            memasarkan, dan menjual buku
-                            selama masa kerja sama berlaku.
+                            Hak atas naskah tetap melekat pada Penulis sebagai pencipta karya. Setelah naskah diterbitkan melalui Penerbit, Penulis memberikan hak kepada Penerbit untuk menerbitkan, mencetak, memproduksi, mendistribusikan, memasarkan, dan menjual buku selama masa kerja sama berlaku.
                         </p>
                     </div>
 
@@ -144,59 +130,167 @@
                         </h3>
 
                         <p class="mt-1">
-                            Penulis tidak diperkenankan
-                            menerbitkan naskah yang sama
-                            ke penerbit lain tanpa persetujuan tertulis.
+                            Selama masa kerja sama berlaku, Penulis tidak diperkenankan menerbitkan, mencetak, menjual, atau menyerahkan naskah yang sama kepada penerbit lain tanpa persetujuan tertulis dari Penerbit.
                         </p>
                     </div>
 
                     <div>
                         <h3 class="font-bold text-[#0176A4]">
-                            PASAL 5 — File PDF & Master
+                            PASAL 5 — PDF Final dan File Master
                         </h3>
 
                         <p class="mt-1">
-                            File final produksi dan master layout
-                            tidak diberikan kepada Penulis
-                            demi menjaga keamanan hak cipta
-                            dan hak terbit bersama.
+                            Untuk menjaga keamanan hak cipta dan hak terbit bersama, file PDF final siap cetak, file master layout, file cover, dan file produksi lainnya tidak diberikan kepada Penulis. Penulis hanya dapat menerima PDF preview untuk kebutuhan pengecekan, revisi, promosi, atau arsip pribadi.
                         </p>
                     </div>
 
                     <div>
                         <h3 class="font-bold text-[#0176A4]">
-                            PASAL 6 — Margin & Bonus Penjualan
+                            PASAL 6 — Larangan Penyebaran File Preview
                         </h3>
 
                         <p class="mt-1">
-                            Penulis berhak memperoleh margin
-                            penjualan buku, ebook,
-                            serta bonus penjualan tahunan
-                            sesuai ketentuan kerja sama.
+                            Penulis tidak diperkenankan menjual, mencetak massal, mengunggah bebas, atau menyebarluaskan PDF preview maupun materi buku kepada pihak lain tanpa izin tertulis dari Penerbit.
                         </p>
                     </div>
 
                     <div>
                         <h3 class="font-bold text-[#0176A4]">
-                            PASAL 7 — Masa Berlaku
+                            PASAL 7 — Diskon Pembelian Buku untuk Penulis
                         </h3>
 
                         <p class="mt-1">
-                            Kerja sama berlaku selama 5 tahun
-                            dan dapat diperpanjang otomatis
-                            apabila tidak ada penghentian tertulis.
+                            Penulis berhak membeli buku kepada Penerbit dengan diskon khusus: pembelian di bawah 100 eksemplar mendapat diskon 35% dari harga jual buku; pembelian 100 eksemplar atau lebih mendapat diskon 40% dari harga jual buku.
                         </p>
                     </div>
 
                     <div>
                         <h3 class="font-bold text-[#0176A4]">
-                            PASAL 8 — Persetujuan Digital
+                            PASAL 8 — Margin Penjualan Marketplace
                         </h3>
 
                         <p class="mt-1">
-                            Persetujuan ini sah secara digital
-                            setelah Penulis menekan tombol
-                            “Setuju & Lanjutkan”.
+                            Apabila buku terjual melalui marketplace resmi yang digunakan Penerbit, Penulis mendapatkan margin: penjualan di bawah 100 eksemplar sebesar 20% dari harga jual buku; penjualan 100 eksemplar atau lebih sebesar 25% dari harga jual buku.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-bold text-[#0176A4]">
+                            PASAL 9 — Margin Penjualan Website
+                        </h3>
+
+                        <p class="mt-1">
+                            Apabila buku terjual melalui website resmi atau kanal penjualan langsung Penerbit, Penulis mendapatkan margin: penjualan di bawah 100 eksemplar sebesar 35% dari harga jual buku; penjualan 100 eksemplar atau lebih sebesar 40% dari harga jual buku.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-bold text-[#0176A4]">
+                            PASAL 10 — Margin Ebook
+                        </h3>
+
+                        <p class="mt-1">
+                            Apabila buku diterbitkan dan terjual dalam format ebook, Penulis mendapatkan margin sebesar 20% dari total nett revenue. Nett revenue adalah pendapatan bersih yang diterima Penerbit setelah dikurangi biaya platform, pajak, admin, promo, diskon, biaya transaksi, atau potongan lain dari platform penjualan ebook.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="font-bold text-[#0176A4]">
+                            PASAL 11 — Pengalihmediaan Buku
+                        </h3>
+
+                        <p class="mt-1">
+                            Apabila buku dialihmediakan ke bentuk lain, seperti audiobook, audio, video, film, dokumenter, podcast, animasi, serial, atau bentuk karya turunan lainnya, Penulis mendapatkan bagian sebesar 30% dari total nett revenue yang diterima Penerbit.
+                        </p>
+                    </div>
+
+                    <div class="mt-4">
+                        <h3 class="font-bold text-[#0176A4]">
+                            PASAL 12 — Penjualan Melalui Channel Penerbit
+                        </h3>
+
+                        <p class="mt-1">
+                            Selain marketplace dan website, Penerbit dapat menjual buku melalui jaringan penerbit, proyek, instansi, komunitas, seminar, pelatihan, kerja sama khusus, atau kanal penjualan lainnya. Penjualan tersebut digunakan untuk distribusi, promosi, pengembangan pasar, dan operasional penerbit. Seluruh penjualan tetap dihitung sebagai bagian dari total penjualan buku.
+                        </p>
+                    </div>
+
+                    <div class="mt-4">
+                        <h3 class="font-bold text-[#0176A4]">
+                            PASAL 13 — Pembayaran Margin dan Bonus
+                        </h3>
+
+                        <p class="mt-1">
+                            Margin penjualan buku cetak dan ebook dibayarkan kepada Penulis 1 bulan sekali berdasarkan rekap penjualan yang tercatat oleh Penerbit. Bonus tahunan dibayarkan 1 tahun sekali pada akhir tahun apabila memenuhi ketentuan penjualan.
+                        </p>
+                    </div>
+
+                    <div class="mt-4">
+                        <h3 class="font-bold text-[#0176A4]">
+                            PASAL 14 — Bonus Penjualan Tahunan
+                        </h3>
+
+                        <p class="mt-1">
+                            Penulis berhak mendapatkan bonus tambahan sebesar 5% dari total harga jual buku apabila total penjualan dari seluruh channel mencapai minimal 500 eksemplar dalam 1 tahun.
+                        </p>
+                    </div>
+
+                    <div class="mt-4">
+                        <h3 class="font-bold text-[#0176A4]">
+                            PASAL 15 — Keaslian Naskah
+                        </h3>
+
+                        <p class="mt-1">
+                            Penulis menjamin bahwa naskah yang diserahkan adalah karya asli atau karya yang sah untuk diterbitkan, tidak melanggar hak cipta pihak lain, tidak mengandung plagiarisme, dan tidak sedang dalam sengketa hukum.
+                        </p>
+                    </div>
+
+                    <div class="mt-4">
+                        <h3 class="font-bold text-[#0176A4]">
+                            PASAL 16 — Tanggung Jawab Isi Naskah
+                        </h3>
+
+                        <p class="mt-1">
+                            Penulis bertanggung jawab penuh atas isi naskah, kutipan, data, gambar, tabel, referensi, dan seluruh materi yang diserahkan kepada Penerbit. Apabila di kemudian hari terdapat klaim, gugatan, atau pelanggaran hukum atas isi naskah, maka hal tersebut menjadi tanggung jawab Penulis.
+                        </p>
+                    </div>
+
+                    <div class="mt-4">
+                        <h3 class="font-bold text-[#0176A4]">
+                            PASAL 17 — Masa Berlaku Kerja Sama
+                        </h3>
+
+                        <p class="mt-1">
+                            Kerja sama penerbitan berlaku selama 5 tahun sejak disetujui oleh Penulis dan Penerbit. Setelah masa berlaku berakhir, kerja sama akan otomatis diperpanjang, kecuali salah satu pihak mengajukan penghentian kerja sama secara tertulis.
+                        </p>
+                    </div>
+
+                    <div class="mt-4">
+                        <h3 class="font-bold text-[#0176A4]">
+                            PASAL 18 — Penghentian Kerja Sama
+                        </h3>
+
+                        <p class="mt-1">
+                            Kerja sama dapat dihentikan apabila salah satu pihak mengajukan penghentian secara tertulis, terjadi pelanggaran ketentuan, atau terdapat permasalahan hukum atas naskah. Apabila kerja sama dihentikan, Penerbit tetap berhak menyelesaikan penjualan stok buku yang sudah dicetak atau sudah masuk sistem penjualan.
+                        </p>
+                    </div>
+
+                    <div class="mt-4">
+                        <h3 class="font-bold text-[#0176A4]">
+                            PASAL 19 — Persetujuan Digital
+                        </h3>
+
+                        <p class="mt-1">
+                            Persetujuan ini dibuat dalam bentuk digital. Dengan mengklik tombol “Setuju”, Penulis dianggap telah memberikan persetujuan sah secara digital terhadap seluruh ketentuan kerja sama penerbitan buku ini.
+                        </p>
+                    </div>
+
+                    <div class="mt-4">
+                        <h3 class="font-bold text-[#0176A4]">
+                            PASAL 20 — Penutup
+                        </h3>
+
+                        <p class="mt-1">
+                            Ketentuan ini dibuat atas dasar kerja sama yang saling menguntungkan, saling menjaga hak, dan saling menghormati antara Penerbit dan Penulis. Hal-hal yang belum diatur dapat disepakati kemudian secara tertulis atau digital.
                         </p>
                     </div>
 
