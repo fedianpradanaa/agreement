@@ -40,12 +40,16 @@ class AuthController extends Controller
             )
         ) {
 
-            return back()->withErrors([
+            return redirect('/admin/login')
 
-                'login' =>
-                    'Email atau password salah.'
+                ->withErrors([
 
-            ])->withInput();
+                    'login' =>
+                        'Email atau password salah.'
+
+                ])
+
+                ->withInput();
 
         }
 
