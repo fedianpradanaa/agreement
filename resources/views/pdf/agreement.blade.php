@@ -903,7 +903,7 @@ $bulan = [
 
         <td class="signature-box">
 
-            <div style="height: 70px;">
+            <div style="height: 110px;">
 
                 <strong>
                     PIHAK PERTAMA
@@ -936,7 +936,7 @@ $bulan = [
 
         <td class="signature-box">
 
-            <div style="height: 70px;">
+            <div style="height: 110px;">
 
                 <strong>
                     PIHAK KEDUA
