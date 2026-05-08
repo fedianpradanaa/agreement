@@ -114,7 +114,7 @@
                                     '{{ $agreement->author_email }}',
                                     '{{ $agreement->author_phone }}',
                                     '{{ $agreement->book_title }}',
-                                    '{{ asset('uploads/' . $agreement->pdf_path) }}'
+                                    '{{ url('/download/' . $agreement->verification_token) }}'
                                 )"
                                 class="px-5 py-2 rounded-xl bg-[#0176A4] text-white">
 
