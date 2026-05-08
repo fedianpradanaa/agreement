@@ -13,7 +13,7 @@
 
         @page {
 
-            margin: 120px 50px 90px 50px;
+            margin: 50px 50px 90px 50px;
 
         }
 
