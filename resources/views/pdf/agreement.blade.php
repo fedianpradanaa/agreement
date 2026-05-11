@@ -160,9 +160,6 @@ $bulan = [
 
 <div class="title">
 
-    PT. ELEMENTA MEDIA LITERASI
-    <br>
-
     PERJANJIAN KERJA SAMA PENERBITAN BUKU
     <br>
 
@@ -374,8 +371,8 @@ $bulan = [
 
 </p>
 
+<div class="page-block">
 <div class="pasal">
-
     PASAL 1
     <br>
     OBJEK KERJA SAMA
@@ -400,7 +397,8 @@ $bulan = [
     </li>
 
 </ol>
-
+</div>
+<div class="page-block">
 <div class="pasal">
 
     PASAL 2
@@ -416,7 +414,8 @@ $bulan = [
     </li>
 
 </ol>
-
+</div>
+<div class="page-block">
 <div class="pasal">
 
     PASAL 3
@@ -444,7 +443,8 @@ $bulan = [
     </li>
 
 </ol>
-
+</div>
+<div class="page-block">
 <div class="pasal">
 
     PASAL 4
@@ -468,7 +468,8 @@ $bulan = [
     </li>
 
 </ol>
-
+</div>
+<div class="page-block">
 <div class="pasal">
 
     PASAL 5
@@ -500,7 +501,8 @@ $bulan = [
     </li>
 
 </ol>
-
+</div>
+<div class="page-block">
 <div class="pasal">
 
     PASAL 6
@@ -528,7 +530,8 @@ $bulan = [
     </li>
 
 </ol>
-
+</div>
+<div class="page-block">
 <div class="pasal">
 
     PASAL 7
@@ -556,7 +559,8 @@ $bulan = [
     </li>
 
 </ol>
-
+</div>
+<div class="page-block">
 <div class="pasal">
 
     PASAL 8
@@ -584,7 +588,8 @@ $bulan = [
     </li>
 
 </ol>
-
+</div>
+<div class="page-block">
 <div class="pasal">
 
     PASAL 9
@@ -616,7 +621,8 @@ $bulan = [
     </li>
 
 </ol>
-
+</div>
+<div class="page-block">
 <div class="pasal">
 
     PASAL 10
@@ -648,7 +654,8 @@ $bulan = [
     </li>
 
 </ol>
-
+</div>
+<div class="page-block">
 <div class="pasal">
 
     PASAL 11
@@ -676,7 +683,8 @@ $bulan = [
     </li>
 
 </ol>
-
+</div>
+<div class="page-block">
 <div class="pasal">
 
     PASAL 12
@@ -704,7 +712,8 @@ $bulan = [
     </li>
 
 </ol>
-
+</div>
+<div class="page-block">
 <div class="pasal">
 
     PASAL 13
@@ -720,7 +729,8 @@ $bulan = [
     </li>
 
 </ol>
-
+</div>
+<div class="page-block">
 <div class="pasal">
 
     PASAL 14
@@ -744,7 +754,8 @@ $bulan = [
     </li>
 
 </ol>
-
+</div>
+<div class="page-block">
 <div class="pasal">
 
     PASAL 15
@@ -768,7 +779,8 @@ $bulan = [
     </li>
 
 </ol>
-
+</div>
+<div class="page-block">
 <div class="pasal">
 
     PASAL 16
@@ -792,7 +804,8 @@ $bulan = [
     </li>
 
 </ol>
-
+</div>
+<div class="page-block">
 <div class="pasal">
 
     PASAL 17
@@ -816,7 +829,8 @@ $bulan = [
     </li>
 
 </ol>
-
+</div>
+<div class="page-block">
 <div class="pasal">
 
     PASAL 18
@@ -832,7 +846,8 @@ $bulan = [
     </li>
 
 </ol>
-
+</div>
+<div class="page-block">
 <div class="pasal">
 
     PASAL 19
@@ -860,7 +875,7 @@ $bulan = [
     </li>
 
 </ol>
-
+</div>
 <div class="section">
 
     Demikian perjanjian ini dibuat atas dasar kerja sama yang saling
